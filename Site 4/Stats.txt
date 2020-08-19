@@ -1,0 +1,28 @@
+MIN		862.08
+MAX		4992.05
+MEAN	2465.6506
+STD		848.2686964327047
+VAR		719559.7813476402
+
+Pearson
+	chi-square
+		dof = 6
+		Power_divergenceResult(statistic=12.38114980963645, pvalue=0.05398636527396029)
+	kstest
+		KstestResult(statistic=0.07742530231936046, pvalue=0.573286838488791)
+
+Gumbel
+	chi-square
+		dof = 7
+		Power_divergenceResult(statistic=11.165073142166705, pvalue=0.13157893409289945)
+	kstest
+		KstestResult(statistic=0.06957712862881837, pvalue=0.7259066901763589)
+	anderson
+		statistic=0.3296715806778536
+
+Lognorm
+	chi-square
+		dof = 7
+		Power_divergenceResult(statistic=11.442921417821147, pvalue=0.12043198363708345)
+	kstest
+		KstestResult(statistic=0.07275191827965533, pvalue=0.6617725267186119)
